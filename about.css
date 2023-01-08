@@ -1,0 +1,15 @@
+#img-about1{
+    z-index: 1;
+
+}
+#img-about2{
+    z-index: 2;
+    top: 20%;
+    margin: bottom -50px;;
+
+    
+}
+#img-about3{
+    z-index: 3;
+    
+}

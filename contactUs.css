@@ -1,0 +1,24 @@
+.input-boder
+{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: hidden;
+    border-bottom: 2px solid #F2E5E5;
+
+}
+textarea{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid #F2E5E5;
+
+}
+.contact{
+    font-family: Segoe Print;
+}
+.icon-size{
+  font-size: 1.5rem;
+}

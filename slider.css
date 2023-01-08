@@ -1,0 +1,82 @@
+/* @media only screen and (min-width: 300px) {
+
+  .button-prev,
+  .button-next {
+    top: 20%;
+  }
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+  .button-prev,
+  .button-next {
+    top: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+  .button-prev,
+  .button-next {
+    top: 45%;
+  }
+  .img-container {
+   height: 100vh; 
+  }
+} */
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  padding: 0;
+  width: auto;
+
+}
+
+.button-prev,
+.button-next {
+  /* Buttons Style */
+  position: absolute;
+  width: auto;
+  top: 50%;
+  margin-top: -22px;
+  background: #e7e8ea;
+  opacity: 50%;
+  font-size: 2rem;
+  color: rgb(70, 67, 67);
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button-prev:hover,
+.button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.image-size {
+  /* Set images to fit slider */
+  width: 100%;
+  opacity: 80%;
+  align-self: flex-start;
+  object-fit: cover;
+}
+
+
+.button-prev {
+  left: 5px;
+}
+
+.button-next {
+  right: 5px;
+}
